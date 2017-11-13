@@ -1,7 +1,9 @@
 'user strict';
+
 var score = 0;
 var Name;
 var counter;
+
 function whatIsYourName(){
   Name = prompt ('Please state your name');
   console.log('name', Name);
@@ -11,6 +13,7 @@ function whatIsYourName(){
   }
 }
 whatIsYourName();
+
 function languageQuestion(){
   var Language = prompt ('Do I speak 3 languages?').toLowerCase();
   console.log('languages', Language);
@@ -24,6 +27,7 @@ function languageQuestion(){
     console.log('false', Language);
   }
 }
+
 languageQuestion();
 function familyQuestion(){
   var Sibilings = prompt ('Do you believe I have 6 sisters?').toLowerCase();
@@ -38,6 +42,7 @@ function familyQuestion(){
   }
 }
 familyQuestion();
+
 function birthdayQuestion(){
   var Birthday = prompt ('Is November 7th my birthday?').toLowerCase();
   console.log('birthday', Birthday);
@@ -51,11 +56,12 @@ function birthdayQuestion(){
   }
 }
 birthdayQuestion();
+
 function placeQuestion() {
   var BirthPlace = prompt ('Was I born in America?').toLowerCase();
   console.log('birthplace', BirthPlace);
   if (BirthPlace === 'yes' || BirthPlace === 'y') {
-    alert ('Sure is! Born in the ole U S of A!');
+    alert ('Sure is! Born in the good ole U S of A!');
     console.log('true', BirthPlace);
     score++;
   } else if (BirthPlace === 'no' || BirthPlace === 'n') {
@@ -63,6 +69,7 @@ function placeQuestion() {
     console.log('false', BirthPlace);
   }
 }
+
 placeQuestion();
 function colorQuestion(){
   var Color = prompt ('Is my favorite color orange?').toLowerCase();
@@ -76,6 +83,7 @@ function colorQuestion(){
     console.log('false', Color);
   }
 }
+
 colorQuestion();
 function numberQuestion(){
   var Numbers = prompt ('Can you guess my favorite number? You get 4 guesses!');
@@ -102,13 +110,14 @@ function numberQuestion(){
 numberQuestion();
 console.log('counter change', counter);
 alert ('The correct answer is LUCKY 7!');
+
 function whereHaveIBeen (Country){
-  var Countries = ['ethiopia','germany','egypt','britain'];
+  var Countries = ['ethiopia','germany','egypt','britain','saudi arabia','canada'];
   console.log('counrty', Country);
   for (var i=0; i<6; i++) {
-    var CountryInput =  prompt ('I have visited four different countries. Can you guess one of them?').toLowerCase();
+    var CountryInput =  prompt ('I have visited six different countries. Can you guess one of them?').toLowerCase();
     if (Countries.includes(CountryInput)) {
-      alert ('You guessed right! The countries I\'ve been to are Ethiopia, Egypt, Britain anf Germany.');
+      alert ('You guessed right! The countries I\'ve been to are Ethiopia, Egypt, Britain, Saudi Arabia, Canada and Germany.');
       console.log('true', Country);
       score++;
       break;

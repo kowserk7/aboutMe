@@ -1,34 +1,76 @@
 html{
   background-color: DarkRed;
-  border: solid;
-  border-width: thick;
-  border-color: white;
+  margin: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  padding-right: 10px;
   height: 695px;
   color: white;
-  font-family: bookman;
+  font-family:Georgia, serif;
 }
 h1{
   text-align: center;
+  text-decoration: underline;
+  padding: 10px;
+}
+h1 a:link,
+h1 a:visited,
+h1 a.current{
+  color: white;
+}
+h1 a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 250%;
 }
 p{
-  text-indent: inherit;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-size: 115%;
+  font-size: 105%;
 }
-.col1,
-.col2,
-.col3{
-  margin-left: 100px;
+h2{
+  font-size: 115%;
+  text-decoration: underline;
+  text-align: center;
+}
+.col1{
+  margin-left: 220px;
+  border: 2px solid white;
+  padding: 10px;
+  width: 20%;
+  border-radius: 10px;
   display: inline;
-  width: 25%;
   float: left;
+  height: 280px;
+}
+.col2 {
+  border: 2px solid white;
+  padding: 10px;
+  width: 20%;
+  border-radius: 10px;
+  display: inline;
+  float: left;
+  height: 280px;
+  overflow: hidden;
+  overflow: scroll;
+}
+.col3 {
+  border: 2px solid white;
+  padding: 10px;
+  width: 20%;
+  border-radius: 10px;
+  display: inline;
+  float: left;
+  height: 280px;
+  border: 2px solid white;
 }
 li{
-  font-size: 115%;
+  font-size: 105%;
 }
 footer{
-  position: fixed;;
+  position: fixed;
+  background-color: black;
+  padding: 0.5em 0;
   bottom: 0;
-  width: 100%;
-  color: white;}
+  width: 95%;
+  text-align: center;
+}
