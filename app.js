@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'user strict';
 
 var score = 0;
