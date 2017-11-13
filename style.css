@@ -72,38 +72,3 @@ footer{
   width: 94%;
   text-align: center;
 }
-=======
-html{
-  background-color: DarkRed;
-  border: solid;
-  border-width: thick;
-  border-color: white;
-  height: 695px;
-  color: white;
-  font-family: bookman;
-}
-h1{
-  text-align: center;
-}
-p{
-  text-indent: inherit;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-size: 115%;
-}
-.col1,
-.col2,
-.col3{
-  margin-left: 100px;
-  display: inline;
-  width: 25%;
-  float: left;
-}
-li{
-  font-size: 115%;
-}
-footer{
-  position: fixed;;
-  bottom: 0;
-  width: 100%;
-  color: white;}
