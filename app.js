@@ -262,4 +262,3 @@ function whereHaveIBeen (Country){
 }
 whereHaveIBeen();
 alert('Congratulations '+Name+', you got '+score+' out of 7!');
->>>>>>> 8a6066e3e63cbee6e05d3669387a04a931cb5c66
